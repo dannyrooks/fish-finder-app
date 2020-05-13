@@ -12,5 +12,12 @@ Location.create([
     {name: "Rio Grande River", state: "Colorado", city: "Creede", country: "USA"},
     {name: "Chattahoochie River", state: "Georgia", city: "Buford", country: "USA"},
     {name: "Holston River", state: "Tennesee", city: "Kingsport", country: "USA"},
-    {name: "Willamette River", state: "Oregon", city: "Albany", country: "USA"},
+    {name: "Willamette River", state: "Oregon", city: "Albany", country: "USA"}
+])
+
+Fish.create([
+    {name: "", fish_type: ""},
+    {name: "", fish_type: ""},
+    {name: "", fish_type: ""},
+    {name: "", fish_type: ""}
 ])
