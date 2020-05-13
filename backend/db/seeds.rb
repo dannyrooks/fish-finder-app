@@ -22,3 +22,4 @@
 #     {name: "Grouper", fish_type: "Bass"}
 # ])
 
+Location.find_by_id(1).update()

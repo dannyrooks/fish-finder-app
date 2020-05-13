@@ -10,13 +10,22 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2020_05_13_170113) do
+ActiveRecord::Schema.define(version: 2020_05_13_203831) do
 
   create_table "fish", force: :cascade do |t|
     t.string "name"
     t.string "fish_type"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
+  end
+
+  create_table "fish_locations", force: :cascade do |t|
+    t.integer "fish_id", null: false
+    t.integer "location_id", null: false
+    t.datetime "created_at", precision: 6, null: false
+    t.datetime "updated_at", precision: 6, null: false
+    t.index ["fish_id"], name: "index_fish_locations_on_fish_id"
+    t.index ["location_id"], name: "index_fish_locations_on_location_id"
   end
 
   create_table "locations", force: :cascade do |t|
@@ -28,4 +37,6 @@ ActiveRecord::Schema.define(version: 2020_05_13_170113) do
     t.datetime "updated_at", precision: 6, null: false
   end
 
+  add_foreign_key "fish_locations", "fish"
+  add_foreign_key "fish_locations", "locations"
 end
