@@ -22,9 +22,9 @@
 #     {name: "Grouper", fish_type: "Bass"}
 # ])
 
-Location.find_by_id(1).update(fish_ids: [])
-Location.find_by_id(1).update(fish_ids: [])
-Location.find_by_id(1).update(fish_ids: [])
-Location.find_by_id(1).update(fish_ids: [])
-Location.find_by_id(1).update(fish_ids: [])
-Location.find_by_id(1).update(fish_ids: [])
+Location.find_by_id(1).update(fish_ids: [1, 2])
+Location.find_by_id(2).update(fish_ids: [1, 2])
+Location.find_by_id(3).update(fish_ids: [1, 2])
+Location.find_by_id(4).update(fish_ids: [1, 2, 3])
+Location.find_by_id(5).update(fish_ids: [1, 2])
+Location.find_by_id(6).update(fish_ids: [1, 2])
