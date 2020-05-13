@@ -6,8 +6,13 @@ Backend
             city:string
             country:string
 
+        fish locations
+            fish : belongs_to
+            location :belongs_to
 
         fish
-
+            name:string
+            fish_type:string
+            
 
 Frontend
