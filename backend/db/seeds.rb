@@ -12,8 +12,10 @@
 #     {name: "Rio Grande River", state: "Colorado", city: "Creede", country: "USA"},
 #     {name: "Chattahoochie River", state: "Georgia", city: "Buford", country: "USA"},
 #     {name: "Holston River", state: "Tennesee", city: "Kingsport", country: "USA"},
-#     {name: "Willamette River", state: "Oregon", city: "Albany", country: "USA"}
+#     {name: "Willamette River", state: "Oregon", city: "Albany", country: "USA"},
 # ])
+
+=======
 
 Fish.create([
     {name: "Rainbow", fish_type: "Trout"},
@@ -21,3 +23,4 @@ Fish.create([
     {name: "Striped Bass", fish_type: "Bass"},
     {name: "Grouper", fish_type: "Bass"}
 ])
+
