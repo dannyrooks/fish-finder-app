@@ -15,9 +15,10 @@
 #     {name: "Willamette River", state: "Oregon", city: "Albany", country: "USA"}
 # ])
 
-Fish.create([
-    {name: "Rainbow", fish_type: "Trout"},
-    {name: "Brown", fish_type: "Trout"},
-    {name: "Striped Bass", fish_type: "Bass"},
-    {name: "Grouper", fish_type: "Bass"}
-])
+# Fish.create([
+#     {name: "Rainbow", fish_type: "Trout"},
+#     {name: "Brown", fish_type: "Trout"},
+#     {name: "Striped Bass", fish_type: "Bass"},
+#     {name: "Grouper", fish_type: "Bass"}
+# ])
+
