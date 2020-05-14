@@ -1,6 +1,6 @@
 require 'test_helper'
 
-class FishControllerTest < ActionDispatch::IntegrationTest
+class FishesControllerTest < ActionDispatch::IntegrationTest
   setup do
     @fish = fish(:one)
   end
